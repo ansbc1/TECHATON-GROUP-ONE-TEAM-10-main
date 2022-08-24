@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #062863;
+    font-family: 'Big Shoulders Display';
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon {
+    margin-bottom: 40%;
+    align-items: center;
+    margin-left: 30px;
+    position: absolute;
+    color: #FFF;
+}
+
+.container {
+    position: absolute;
+    max-width: 430px;
+    width: 80%;
+    box-shadow: none;
+    background: #FFF;
+    border-radius: 20px 20px 20px 0;
+}
+
+.container .form {
+    margin: 15%;
+}
+
+.container .form .title {
+    position: relative;
+    font-size: 25px;
+    font-weight: 600px;
+}
+
+.form .input-field {
+    margin-top: 10%;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    font-size: 15px;
+   
+}
+
+.input-field input {
+    position: relative;
+    height: 60px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(212, 229, 244);
+    box-shadow: darkgrey;
+}
+
+span {
+    color: #1338BE;
+    padding-left: 35px;
+
+}
+
+p {
+    margin-left: 15%;
+    padding-bottom: 15px;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 15%;
+    height: 50px;
+    color: #FFF;
+    background-color: #1338BE;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.input-field i {
+    position: absolute;
+    margin-top: 15px;
+}
+
+.par {
+    margin-top: 40%;
+    margin-right: 15%;
+    color: #FFF;
+}
+
+.btn:hover {
+    color: #5579fc;
+}
